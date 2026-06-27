@@ -1,0 +1,91 @@
+export default function Home() {
+  return (
+    <main style={{
+      minHeight: '100vh',
+      background: '#F7F6F3',
+      color: '#171717',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: 24,
+      fontFamily: 'Inter, system-ui, sans-serif',
+    }}>
+      <section style={{
+        maxWidth: 760,
+        width: '100%',
+        background: '#FFFFFF',
+        borderRadius: 32,
+        padding: '56px 32px',
+        textAlign: 'center',
+        boxShadow: '0 24px 80px rgba(0,0,0,0.08)',
+        border: '1px solid rgba(0,0,0,0.06)',
+      }}>
+        <div style={{ fontSize: 56, marginBottom: 16 }}>🦫</div>
+
+        <p style={{
+          color: '#7F77DD',
+          fontWeight: 800,
+          letterSpacing: 1.2,
+          textTransform: 'uppercase',
+          marginBottom: 16,
+        }}>
+          Coming Soon
+        </p>
+
+        <h1 style={{
+          fontSize: 'clamp(44px, 8vw, 84px)',
+          lineHeight: 0.95,
+          margin: 0,
+          letterSpacing: -3,
+        }}>
+          Vocabara™
+        </h1>
+
+        <h2 style={{
+          fontSize: 'clamp(24px, 4vw, 42px)',
+          lineHeight: 1.1,
+          marginTop: 18,
+          marginBottom: 20,
+          letterSpacing: -1.5,
+        }}>
+          The Operating System for Language Learners.
+        </h2>
+
+        <p style={{
+          fontSize: 20,
+          lineHeight: 1.55,
+          color: '#666',
+          maxWidth: 620,
+          margin: '0 auto 34px',
+        }}>
+          AI-powered vocabulary, smart review, tutoring, speaking practice,
+          and roleplay — built to help serious language learners remember more.
+        </p>
+
+        <a
+          href="mailto:support@getvocabara.com"
+          style={{
+            display: 'inline-block',
+            background: '#7F77DD',
+            color: '#FFFFFF',
+            textDecoration: 'none',
+            fontWeight: 800,
+            fontSize: 18,
+            padding: '16px 28px',
+            borderRadius: 18,
+          }}
+        >
+          Contact Support
+        </a>
+
+        <p style={{
+          marginTop: 34,
+          color: '#999',
+          fontSize: 14,
+        }}>
+          © 2026 Superbury LLC. All rights reserved.
+        </p>
+      </section>
+    </main>
+  );
+}
