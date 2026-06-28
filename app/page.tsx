@@ -78,13 +78,31 @@ export default function Home() {
           Contact Support
         </a>
 
-        <p style={{
-          marginTop: 34,
-          color: '#999',
-          fontSize: 14,
+        {/* ── Footer ─────────────────────────────────────────────────────── */}
+        <div style={{
+          marginTop: 48,
+          paddingTop: 28,
+          borderTop: '1px solid rgba(0,0,0,0.07)',
         }}>
-          © 2026 Superbury LLC. All rights reserved.
-        </p>
+          <p style={{ margin: '0 0 4px', fontWeight: 700, fontSize: 16, color: '#171717', letterSpacing: -0.3 }}>
+            Vocabara™
+          </p>
+          <p style={{ margin: '0 0 16px', fontSize: 13, color: '#888' }}>
+            The Operating System for Language Learners.
+          </p>
+          <p style={{ margin: '0 0 6px', fontSize: 13, color: '#888' }}>
+            <a href="https://getvocabara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
+              getvocabara.com
+            </a>
+            {' · '}
+            <a href="mailto:support@getvocabara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
+              support@getvocabara.com
+            </a>
+          </p>
+          <p style={{ margin: 0, fontSize: 12, color: '#bbb' }}>
+            © 2026 Superbury LLC. All rights reserved.
+          </p>
+        </div>
       </section>
     </main>
   );
