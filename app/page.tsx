@@ -1,3 +1,5 @@
+const APP_STORE_URL = '#';
+
 export default function Home() {
   return (
     <main style={{
@@ -58,12 +60,11 @@ export default function Home() {
           maxWidth: 620,
           margin: '0 auto 34px',
         }}>
-          AI-powered vocabulary, smart review, tutoring, speaking practice,
-          and roleplay — built to help serious language learners remember more.
+          Look up words instantly, build your personal vocabulary bank, review smarter with spaced repetition, and improve through AI tutoring, speaking practice, and immersive roleplay.
         </p>
 
         <a
-          href="mailto:support@getvocabara.com"
+          href={APP_STORE_URL}
           style={{
             display: 'inline-block',
             background: '#7F77DD',
@@ -75,8 +76,21 @@ export default function Home() {
             borderRadius: 18,
           }}
         >
-          Contact Support
+          Get The App Today
         </a>
+
+        <p style={{ margin: '16px 0 0' }}>
+          <a
+            href="mailto:support@getvocabara.com"
+            style={{
+              color: '#888',
+              textDecoration: 'none',
+              fontSize: 14,
+            }}
+          >
+            Contact Support
+          </a>
+        </p>
 
         {/* ── Footer ─────────────────────────────────────────────────────── */}
         <div style={{
