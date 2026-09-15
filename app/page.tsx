@@ -40,7 +40,7 @@ export default function Home() {
           margin: 0,
           letterSpacing: -3,
         }}>
-          Vocabara™
+          Kapiara™
         </h1>
 
         <h2 style={{
@@ -81,7 +81,7 @@ export default function Home() {
 
         <p style={{ margin: '16px 0 0' }}>
           <a
-            href="mailto:support@getvocabara.com"
+            href="mailto:support@kapiara.com"
             style={{
               color: '#888',
               textDecoration: 'none',
@@ -99,18 +99,18 @@ export default function Home() {
           borderTop: '1px solid rgba(0,0,0,0.07)',
         }}>
           <p style={{ margin: '0 0 4px', fontWeight: 700, fontSize: 16, color: '#171717', letterSpacing: -0.3 }}>
-            Vocabara™
+            Kapiara™
           </p>
           <p style={{ margin: '0 0 16px', fontSize: 13, color: '#888' }}>
             The Operating System for Language Learners.
           </p>
           <p style={{ margin: '0 0 6px', fontSize: 13, color: '#888' }}>
-            <a href="https://getvocabara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
-              getvocabara.com
+            <a href="https://kapiara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
+              kapiara.com
             </a>
             {' · '}
-            <a href="mailto:support@getvocabara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
-              support@getvocabara.com
+            <a href="mailto:support@kapiara.com" style={{ color: '#7F77DD', textDecoration: 'none', fontWeight: 600 }}>
+              support@kapiara.com
             </a>
           </p>
           <p style={{ margin: 0, fontSize: 12, color: '#bbb' }}>
